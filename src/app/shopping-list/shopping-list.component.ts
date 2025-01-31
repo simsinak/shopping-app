@@ -13,4 +13,8 @@ export class ShoppingListComponent {
       new Ingredient('Apple', 5),
       new Ingredient('Banana', 20)
     ]
+
+  addIngredientToList(ingredient: Ingredient) {
+    this.ingredients.push(ingredient)
+  }
 }
